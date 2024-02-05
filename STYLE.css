@@ -1,0 +1,91 @@
+div{
+    max-width: 768px;
+    max height: 1024px;
+    margin: auto;
+    display: block;
+}
+
+.row{
+    margin-left: auto;
+    margin right: auto ;
+    font size: 50px;
+    text-align: center;
+
+}
+
+
+.col{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 50px;
+    visibility: visible;
+    
+  
+}
+@media only screen and (max-width: 414px)_{
+.row {
+ visibility: visible;
+}
+.col{
+ visibility: visible;
+}
+}
+h1{
+    color: black;
+    text-shadow: 0 0 5px #999;
+    font-size: 50px;
+}
+h2{
+    color:black;
+    text-shadow: 0 0 5px #999;
+    font-size: 20px;
+}
+p{
+    color:whitesmoke;
+    text-shadow: 0 0 5px #999;
+    height: 100%;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    
+}
+button{
+    width: 180px;
+    color: green;
+    font-size: 12px;
+    padding: 12px 0;
+    background: burlywood;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+html, body {
+
+   height: 100%;
+   width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    flex-wrap: wrap;
+
+  
+
+   background-image: url(Background.jpg);
+   background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+map{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
